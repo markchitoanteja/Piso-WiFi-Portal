@@ -1,0 +1,404 @@
+html {
+    font-size: 1rem;
+}
+
+body {
+    background-color: #000 !important;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prettyline {
+    height: 5px;
+    border-top: 0;
+    background: #c4e17f;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.button-rnd {
+    min-width: 300px !important;
+    max-width: 300px !important;
+    border-radius: 2px;
+}
+
+.button-rnd:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer {
+    font-size: 90%;
+    color: #748c8a;
+}
+
+.footer .fa {
+    text-align: center;
+    width: 20px;
+}
+
+.footer .fa-bell-slash {
+    font-size: 90%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.btn-block {
+    max-width: 300px;
+    margin: auto;
+}
+
+.paused {
+    color: #354443;
+}
+
+.modal {
+    z-index: 99999;
+}
+
+.modal-dialog {
+    overflow-y: initial !important;
+}
+
+.fullscreen-content {
+    height: auto;
+    min-height: 100%;
+    border-radius: 0;
+}
+
+#policy h6 {
+    text-transform: uppercase;
+}
+
+#policy p {
+    text-align: justify;
+}
+
+#connect_how ol {
+    font-weight: bold;
+}
+
+#connect_how ol li ul {
+    margin-left: -25px;
+    font-weight: normal;
+}
+
+#connect_how ol .normal-font ul {
+    margin-left: -25px;
+    font-weight: normal;
+    font-size: 80%;
+}
+
+.button-animate {
+
+    -webkit-animation: glowing 1500ms infinite;
+    -moz-animation: glowing 1500ms infinite;
+    -o-animation: glowing 1500ms infinite;
+    animation: glowing 1500ms infinite;
+}
+
+@-webkit-keyframes glowing {
+    0% {
+        border-color: #FF0000;
+        box-shadow: 0 0 3px #b7deb7;
+        background-color: #000;
+    }
+
+    50% {
+        border-color: #FF0000;
+        box-shadow: 0 0 40px #0000FF;
+        background-color: #000;
+    }
+
+    100% {
+        border-color: #FF0000;
+        box-shadow: 0 0 3px #0000FF;
+        background-color: #000;
+    }
+}
+
+@-moz-keyframes glowing {
+    0% {
+        border-color: #FF0000;
+        box-shadow: 0 0 3px #0000FF;
+        background-color: #000;
+    }
+
+    50% {
+        border-color: #FF0000;
+        box-shadow: 0 0 40px #0000FF;
+        background-color: #000;
+    }
+
+    100% {
+        border-color: #FF0000;
+        box-shadow: 0 0 3px #0000FF;
+        background-color: #000;
+    }
+}
+
+@-o-keyframes glowing {
+    0% {
+        border-color: #FF0000;
+        box-shadow: 0 0 3px #0000FF;
+        background-color: #000;
+    }
+
+    50% {
+        border-color: #FF0000;
+        box-shadow: 0 0 40px #0000FF;
+        background-color: #000;
+    }
+
+    100% {
+        border-color: #FF0000;
+        box-shadow: 0 0 3px #0000FF;
+        background-color: #000;
+    }
+}
+
+@keyframes glowing {
+    0% {
+        border-color: #FF0000;
+        box-shadow: 0 0 3px #0000FF;
+        background-color: #000;
+    }
+
+    50% {
+        border-color: #FF0000;
+        box-shadow: 0 0 40px #0000FF;
+        background-color: #000;
+    }
+
+    100% {
+        border-color: #FF0000;
+        box-shadow: 0 0 3px #0000FF;
+        background-color: #000;
+    }
+}
+
+.pause-button:hover {
+    color: #4CAE4C;
+    cursor: pointer;
+    content: "\f023" !important;
+}
+
+.blink {
+    animation: blinker 1500ms linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0.2;
+    }
+}
+
+.button-animate-red {
+    -webkit-animation: glowingRed 1500ms infinite;
+    -moz-animation: glowingRed 1500ms infinite;
+    -o-animation: glowingRed 1500ms infinite;
+    animation: glowingRed 1500ms infinite;
+}
+
+.rtime,
+.ptime {
+    text-transform: uppercase;
+    font-size: 80% !important;
+    font-weight: normal;
+    color: aqua;
+}
+
+.rtime b,
+.ptime b {
+    font-weight: bold;
+    font-size: 200% !important;
+    color: aqua;
+}
+
+@keyframes lpb-link {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.shadow:before,
+.shadow:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(360deg, #0000FF, #0000FF, #0000FF);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    background-size: 400%;
+    z-index: -1;
+    border-radius: 20px;
+    box-shadow: 1px 2px #0000FF;
+    animation: animate 20s linear infinite;
+
+}
+
+.shadow:after {
+    filter: blur(20px);
+
+}
+
+#free_time_animation button {
+    color: #fff;
+    box-shadow: 1px 1px 5px #0000FF, 0 0 25px #0000FF, 1px 1px 5px #0000FF;
+    background: #000;
+    text-transform: uppercase;
+    border: 1.5px solid #FF0000;
+}
+
+#insert_coin_animation button {
+    color: #fff;
+    box-shadow: 1px 1px 5px #0000FF, 0 0 25px #0000FF, 1px 1px 5px #0000FF;
+    background: #000;
+    text-transform: uppercase;
+    border: 1.5px solid #FF0000;
+}
+
+#pcheck button {
+    color: #fff;
+    box-shadow: 1px 1px 5px #0000FF, 0 0 25px #0000FF, 1px 1px 5px #0000FF;
+    background: #000;
+    text-transform: uppercase;
+    border: 1.5px solid #FF0000;
+
+}
+
+#pfuncwifi button {
+    color: #fff;
+    box-shadow: 1px 1px 5px #0000FF, 0 0 25px #0000FF, 1px 1px 5px #0000FF;
+    background: #000;
+    text-transform: uppercase;
+    border: 1.5px solid #FF0000;
+
+}
+
+#chat_box_animation button {
+    color: #fff;
+    box-shadow: 1px 1px 5px #0000FF, 0 0 25px #0000FF, 1px 1px 5px #0000FF;
+    background: black;
+    text-transform: uppercase;
+    border: 1.5px solid #FF0000;
+
+}
+
+#peload button {
+    color: #fff;
+    box-shadow: 1px 1px 5px #0000FF, 0 0 25px #0000FF, 1px 1px 5px #0000FF;
+    background: #000;
+    text-transform: uppercase;
+    border: 1.5px solid #FF0000;
+
+}
+
+#pcheckbalance button {
+    color: #fff;
+    box-shadow: 1px 1px 5px #0000FF, 0 0 25px #0000FF, 1px 1px 5px #0000FF;
+    background: #000;
+    text-transform: uppercase;
+    border: 1.5px solid #FF0000;
+}
+
+#done-paying {
+    color: #fff;
+    box-shadow: 1px 1px 5px #0000FF, 0 0 25px #0000FF, 1px 1px 5px #0000FF;
+    background: #000;
+    text-transform: uppercase;
+    border: 1.5px solid #FF0000;
+}
+
+;
+
+.custom-line {
+    height: 5px;
+    background: linear-gradient(to right, red, orange, #FFFF00, green, blue, indigo, violet);
+    border-radius: 5px;
+    border-top: 0;
+}
+
+#msg {
+    background-color: transparent;
+    border: 1px solid #FF0000;
+    box-shadow: 1px 1px 5px #0000FF, 0 0 25px #0000FF, 1px 1px 5px #0000FF;
+    color: white;
+}
+
+#sendmsg {
+    box-shadow: 1px 1px 5px #0000FF, 0 0 25px #0000FF, 1px 1px 5px #0000FF;
+    border: 1px solid #FF0000;
+    color: white;
+    background-image: linear-gradient(49deg, #0000FF, #0000CD);
+    text-transform: uppercase;
+}
+
+#vcode {
+    background-color: transparent;
+    border: 1px solid #FF0000;
+    box-shadow: 1px 1px 5px #0000FF, 0 0 25px #0000FF, 1px 1px 5px #0000FF;
+    color: white;
+}
+
+#sub-voucher {
+    box-shadow: 1px 1px 5px #0000FF, 0 0 25px #0000FF, 1px 1px 5px #0000FF;
+    border: 1px solid #FF0000;
+    color: white;
+    background-image: linear-gradient(49deg, #0000FF, #0000CD);
+}
+
+#eloadnumber {
+    background-color: transparent;
+    border: 1px solid #FF0000;
+    box-shadow: 1px 1px 5px #0000FF, 0 0 25px #0000FF, 1px 1px 5px #0000FF;
+    color: white;
+}
+
+#ieloadnumber {
+    background-color: transparent;
+    border: 1px solid #FF0000;
+    box-shadow: 1px 1px 5px #0000FF, 0 0 25px #0000FF, 1px 1px 5px #0000FF;
+    color: white;
+}
+
+.text-muted {
+    padding: 2px;
+}
+
+th,
+td {
+    border-color: #0000FF !important;
+    border: 2px solid #0000FF;
+}
+
+.logo-img {
+    width: 110px;
+}
+
+@media (max-width: 768px) {
+    .logo-img {
+        width: 90px;
+    }
+}
